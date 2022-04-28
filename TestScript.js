@@ -7,7 +7,7 @@ if (xhttp.readyState == 4 && xhttp.status == 200) {
 
     var xmlDoc = xhttp.responseXML; //important to use responseXML here
 }
-xhttp.open("GET", "TestXml.xml", true);
+xhttp.open("GET", "https://github.com/SCPNostalgia/RuleLearningWebForms/blob/main/TestXml.xml", true);
 xhttp.send();}
 var node = xmlDoc.createElement("heyHo");
 var elements = xmlDoc.getElementsByTagName("root");
